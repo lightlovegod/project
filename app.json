@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "SCCE",
+    "slug": "scc-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "assets/icon-scc.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "assets/icon-scc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/icon-scc.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "assets/icon-scc.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
