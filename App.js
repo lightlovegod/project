@@ -10,7 +10,7 @@ import {
   TextInput, //ช่องกรอกข้อมูล
   KeyboardAvoidingView, //คีย์บอร์ด
   Image, //รูปภาพ
-  Modal, // เพิ่มตรงนี้
+  Modal, // เพิ่มตรงนี้นะครับ
 } from "react-native";
 import Papa from "papaparse"; // libraly สำหรับ ดึง ไฟล์จาก google  เป็น csv  เพื่อ เป็นไฟล์ json
 import { NavigationContainer } from "@react-navigation/native"; //ตัวนำทาง  navigation
