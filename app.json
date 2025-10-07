@@ -1,6 +1,9 @@
 {
   "expo": {
     "name": "SCCE",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "slug": "scc-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,13 +23,25 @@
         "foregroundImage": "assets/icon-scc.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.lightlikelinux.sccapp"
     },
     "web": {
       "favicon": "assets/icon-scc.png"
     },
     "plugins": [
-      "expo-font"
-    ]
+      "expo-font",
+      "expo-updates"
+    ],
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/YOUR-PROJECT-ID"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff810fac-cd7a-41c5-9b09-2afa9431dc25"
+      }
+    }
   }
 }
